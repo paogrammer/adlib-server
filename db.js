@@ -8,7 +8,7 @@ module.exports = async () => {
             useUnifiedTopology: true,
         };
         await mongoose.connect(
-            "mongodb://localhost/todo-app",
+            "mongodb+srv://pawyyyk:saludi@mern.mrpenjn.mongodb.net/test",
             connectionParams
         );
         console.log("Connected to database.");
